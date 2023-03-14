@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E049CCF029C05B8E00D2D78A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049CCEF29C05B8E00D2D78A /* MapView.swift */; };
+		E049CCF229C0651200D2D78A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049CCF129C0651200D2D78A /* DetailView.swift */; };
+		E049CCF429C0661500D2D78A /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049CCF329C0661500D2D78A /* CircleImageView.swift */; };
+		E049CCF629C06E9800D2D78A /* ListeRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049CCF529C06E9800D2D78A /* ListeRowItem.swift */; };
 		E0FF893029BE2B1C00A36876 /* SuperHeroBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF892F29BE2B1C00A36876 /* SuperHeroBookApp.swift */; };
-		E0FF893229BE2B1C00A36876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF893129BE2B1C00A36876 /* ContentView.swift */; };
+		E0FF893229BE2B1C00A36876 /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF893129BE2B1C00A36876 /* ListeView.swift */; };
 		E0FF893429BE2B1D00A36876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FF893329BE2B1D00A36876 /* Assets.xcassets */; };
 		E0FF893729BE2B1D00A36876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FF893629BE2B1D00A36876 /* Preview Assets.xcassets */; };
 		E0FF893F29BE326B00A36876 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF893E29BE326B00A36876 /* SuperHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E049CCEF29C05B8E00D2D78A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E049CCF129C0651200D2D78A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E049CCF329C0661500D2D78A /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		E049CCF529C06E9800D2D78A /* ListeRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRowItem.swift; sourceTree = "<group>"; };
 		E0FF892C29BE2B1C00A36876 /* SuperHeroBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FF892F29BE2B1C00A36876 /* SuperHeroBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroBookApp.swift; sourceTree = "<group>"; };
-		E0FF893129BE2B1C00A36876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0FF893129BE2B1C00A36876 /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
 		E0FF893329BE2B1D00A36876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0FF893629BE2B1D00A36876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0FF893E29BE326B00A36876 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
@@ -34,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E049CCEE29C05B7C00D2D78A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E049CCEF29C05B8E00D2D78A /* MapView.swift */,
+				E049CCF129C0651200D2D78A /* DetailView.swift */,
+				E049CCF329C0661500D2D78A /* CircleImageView.swift */,
+				E049CCF529C06E9800D2D78A /* ListeRowItem.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		E0FF892329BE2B1C00A36876 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +72,10 @@
 		E0FF892E29BE2B1C00A36876 /* SuperHeroBook */ = {
 			isa = PBXGroup;
 			children = (
+				E049CCEE29C05B7C00D2D78A /* views */,
 				E0FF893D29BE325400A36876 /* model */,
 				E0FF892F29BE2B1C00A36876 /* SuperHeroBookApp.swift */,
-				E0FF893129BE2B1C00A36876 /* ContentView.swift */,
+				E0FF893129BE2B1C00A36876 /* ListeView.swift */,
 				E0FF893329BE2B1D00A36876 /* Assets.xcassets */,
 				E0FF893529BE2B1D00A36876 /* Preview Content */,
 			);
@@ -148,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0FF893229BE2B1C00A36876 /* ContentView.swift in Sources */,
+				E0FF893229BE2B1C00A36876 /* ListeView.swift in Sources */,
+				E049CCF029C05B8E00D2D78A /* MapView.swift in Sources */,
 				E0FF893029BE2B1C00A36876 /* SuperHeroBookApp.swift in Sources */,
+				E049CCF229C0651200D2D78A /* DetailView.swift in Sources */,
+				E049CCF429C0661500D2D78A /* CircleImageView.swift in Sources */,
+				E049CCF629C06E9800D2D78A /* ListeRowItem.swift in Sources */,
 				E0FF893F29BE326B00A36876 /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
